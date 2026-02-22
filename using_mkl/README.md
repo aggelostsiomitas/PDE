@@ -1,1 +1,1 @@
-these 2 files  do the exact same , the main.cpp file  solves the PDE using gauss seidel with the use of the MKL library functions for performance  and the main.py file plot the results that re stored in the solution.dat file that is being created after the run
+these 2 files  do the exact same , the main.cpp file  solves the PDE using gauss seidel with the use of the MKL library functions for performance  and the main.py file plot the results that are stored in the solution.dat file that is being created after the run
