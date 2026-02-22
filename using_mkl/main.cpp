@@ -117,7 +117,7 @@ std::vector<double> gauss_seidel(
     double tol
 )
 {
-    std::cout<<"starting gauuss seidle iteration\n";
+    std::cout<<"starting gauuss seidel iteration\n";
     //my solution x
    std::vector<double>x(n, 0.0);
     std::vector<double>Ax(n), r(n), y(n);
@@ -223,16 +223,16 @@ int main()
     
 
 
-//     sparse_index_base_t indexing ;
-//     MKL_INT rows_csr, cols_csr;
-//     MKL_INT *row_ptr, *row_end_unused, *col_ind;
-//     double *val_csr;
+    sparse_index_base_t indexing ;
+    MKL_INT rows_csr, cols_csr;
+    MKL_INT *row_ptr, *row_end_unused, *col_ind;
+    double *val_csr;
 
 
-//  mkl_sparse_d_export_csr(Ahandle, &indexing,
-//         &rows_csr, &cols_csr,
-//         &row_ptr, &row_end_unused,
-//         &col_ind, &val_csr);
+ mkl_sparse_d_export_csr(Ahandle, &indexing,
+        &rows_csr, &cols_csr,
+        &row_ptr, &row_end_unused,
+        &col_ind, &val_csr);
 
 
     //build rhs 
